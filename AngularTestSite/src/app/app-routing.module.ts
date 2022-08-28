@@ -4,6 +4,7 @@ import { LogInComponent } from './components/log-in/log-in.component';
 import { DepartmentListComponent } from './department-list/department-list.component';
 import { EmployeeListComponent } from './employee-list/employee-list.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
+import { ProductListComponent } from './product-list/product-list.component';
 
 
 const routes: Routes = [
@@ -11,7 +12,8 @@ const routes: Routes = [
   { path: 'login', component: LogInComponent },
   { path: 'departments', component: DepartmentListComponent },
   { path: 'employees', component: EmployeeListComponent },
-  { path: 'products', component: ProductDetailsComponent }
+  { path: 'productdetail', component: ProductDetailsComponent },
+  { path: 'productlist', component: ProductListComponent }
  ];
 
 @NgModule({
@@ -19,4 +21,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents = [DepartmentListComponent, EmployeeListComponent, LogInComponent, ProductDetailsComponent]
+export const routingComponents = [DepartmentListComponent, EmployeeListComponent, LogInComponent, ProductDetailsComponent, ProductListComponent]
