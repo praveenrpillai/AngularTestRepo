@@ -2,11 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\AngularTestSite",
-    "\\AngularTestSite\\.angular",
     "\\AngularTestSite\\src",
     "\\AngularTestSite\\src\\app",
-    "\\AngularTestSite\\src\\app\\components"
+    "\\AngularTestSite\\src\\app\\department-list"
   ],
-  "SelectedNode": "\\AngularTestSite\\src\\app\\components\\log-in",
+  "SelectedNode": "\\AngularTestSite",
   "PreviewInSolutionExplorer": false
 }
